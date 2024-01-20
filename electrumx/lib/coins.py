@@ -958,6 +958,9 @@ class BitcoinRegtest(BitcoinTestnet):
     PEERS = []
     TX_COUNT = 1
     TX_COUNT_HEIGHT = 1
+    ATOMICALS_ACTIVATION_HEIGHT = 1
+    ATOMICALS_ACTIVATION_HEIGHT_DMINT = 1
+    ATOMICALS_ACTIVATION_HEIGHT_COMMITZ = 1
 
 
 class BitcoinSegwitRegtest(BitcoinRegtest):
