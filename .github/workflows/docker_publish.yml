@@ -42,6 +42,6 @@ jobs:
           # Push is a shorthand for --output=type=registry
           push: true # optional, default is false
           build-args: |
-            VERSION=${{ inputs.electrumx-version }}
+            ELECTRUMX_VERSION=${{ inputs.electrumx-version }}
           # List of tags
           tags: 2300206764/atomicals-electrumx:${{ inputs.image-version }}
